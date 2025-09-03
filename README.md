@@ -10,5 +10,5 @@ This repository hosts [inflator's](https://github.com/FAReTek1/inflator) goboscr
 > - The package URL must be a valid GirHub URL that points to the root of the repository. e.g. https://github.com/FAReTek1/ease/
 > The issue will be resolved within a minute by [@faretek0](https://github.com/faretek0)
 
-> [!INFO]
+> [!NOTE]
 > The bot script that manages these issues is available [here](https://github.com/FAReTek1/bfg)
