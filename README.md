@@ -7,7 +7,7 @@ This repository hosts [inflator's](https://github.com/FAReTek1/inflator) goboscr
 > [!TIP]
 > You can add a package to the goboscript package index by using the 'Register package' issue template [here](https://github.com/FAReTek1/inflate-gtp/issues).
 > - The package name must be alphanumeric with support for `-` and `_`. Spaces are not allowed.
-> - The package URL must be a valid GirHub URL that points to the root of the repository. e.g. https://github.com/FAReTek1/ease/
+> - The package URL must be a valid **GitHub** URL that points to the root of the repository. e.g. https://github.com/FAReTek1/ease/
 > The issue will be resolved within a minute by [@faretek0](https://github.com/faretek0)
 
 > [!NOTE]
