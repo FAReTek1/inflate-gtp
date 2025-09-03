@@ -1,5 +1,5 @@
 ---
-name: Register package
+name: Register package old
 about: Register a package for the gtp
 title: 'register:'
 labels: register
