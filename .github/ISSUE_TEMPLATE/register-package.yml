@@ -1,0 +1,28 @@
+name: Register package
+description: Register a package to be added to the gtp.json file
+title: "register: "
+labels: ["register"]
+assignees:
+  - faretek1
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill in this form to propose the package. If valid, it will be added automatically.
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: What should this package be registered as? This is the name used for the `inflate install name` syntax
+      placeholder: ex. ease
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Link to the package source repository on *GitHub*. 
+      placeholder: ex. http://github.com/FAReTek1/ease
+    validations:
+      required: true
+      
