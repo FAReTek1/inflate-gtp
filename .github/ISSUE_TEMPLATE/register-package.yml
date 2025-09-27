@@ -3,7 +3,7 @@ description: Register a package to be added to the gtp.json file
 title: "register: "
 labels: ["register"]
 assignees:
-  - faretek1
+  - faretek0
 body:
   - type: markdown
     attributes:
