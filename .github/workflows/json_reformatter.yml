@@ -5,10 +5,12 @@ on:
   push:
     paths:
       - '**.json' # Trigger on changes to any JSON file
-  workflow_dispatch: # Allows manual trigger
+  workflow_dispatch: # Allows manual trigger  
 
 jobs:
   format_json:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
