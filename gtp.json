@@ -49,11 +49,7 @@
   },
   "math": {
     "url": "https://github.com/inflated-goboscript/math"
-  },
-  "prime": {
+  },  "prime": {
     "url": "https://github.com/inflated-goboscript/prime"
-  },
-  "rosetta": {
-    "url": "https://github.com/inflated-goboscript/rosetta"
   }
 }
