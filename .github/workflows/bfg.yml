@@ -12,19 +12,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v5
-      - uses: actions/setup-python@v6
-        with:
-          python-version: '3.13'
+    - uses: actions/checkout@v5
+    - uses: actions/setup-python@v6
+      with:
+        python-version: '3.13'
 
-      # - name: Run bfg.py
-      #   env:
-      #     BFG_PAT_GITHUB: ${{ GITHUB_TOKEN }}
-      #   run:
-      #     python bfg.py
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
 
-      # - name: Commit GTP changes (if applicable)
-      #   uses: stefanzweifel/git-auto-commit-action@v5
-      #   with:
-      #     commit_message: 'feat: new packages'
-      #     branch: ${{ github.head_ref || github.ref_name }} # Works for both push and pull_request
+    - name: Run bfg.py
+      env:
+        BFG_PAT_GITHUB: ${{ GITHUB_TOKEN }}
+      run:
+        python bfg.py
+
+    - name: Commit GTP changes (if applicable)
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: 'feat: new packages'
+        branch: ${{ github.head_ref || github.ref_name }} # Works for both push and pull_request
