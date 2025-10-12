@@ -56,9 +56,6 @@
   "rosetta": {
     "url": "https://github.com/inflated-goboscript/rosetta"
   },
-  "os": {
-    "url": "https://github.com/inflated-goboscript/os"
-  },
   "geo2d": {
     "url": "https://github.com/inflated-goboscript/geo2d"
   },
