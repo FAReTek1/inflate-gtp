@@ -4,6 +4,8 @@ name: BFG
 on:
   workflow_dispatch:
   issues:
+    types:
+      - opened
 
 permissions:
   contents: write
