@@ -40,7 +40,7 @@ class GTP:
 
     @data.setter
     def data(self, value: dict[str, dict[str, str]]):
-        self.raw_data = json.dumps(value, indent=4)
+        self.raw_data = json.dumps(value, indent=2)
 
     def __setitem__(self, key: str, value: dict[str, str]):
         data = self.data
@@ -54,6 +54,7 @@ def resolve_registrations():
             state="open",
             labels=["register"]
     ):
+        print(f"Found open issue with `register` tag: {issue.url}")
         print(f"Found open issue with `register` tag: {issue.url}")
 
         body = issue.body
