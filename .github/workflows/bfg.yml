@@ -26,5 +26,5 @@ jobs:
       - name: Commit GTP changes (if applicable)
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'feat: ${{ github.event.issue.title }}'
+          commit_message: 'feat: new packages'
           branch: ${{ github.head_ref || github.ref_name }} # Works for both push and pull_request
