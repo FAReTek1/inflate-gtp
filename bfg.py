@@ -3,7 +3,6 @@ import os
 import pathlib
 import re
 import base64
-import time
 
 from datetime import datetime
 from typing import Optional
@@ -41,7 +40,7 @@ class GTP:
 
     @data.setter
     def data(self, value: dict[str, dict[str, str]]):
-        self.raw_data = json.dumps(value)
+        self.raw_data = json.dumps(value, indent=4)
 
     def __setitem__(self, key: str, value: dict[str, str]):
         data = self.data
