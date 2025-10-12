@@ -4,17 +4,20 @@ name: BFG
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  scan-comments:
-    permissions:
-      contents: write
+  bfg:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
         with:
           python-version: '3.13'
-      - name: Reformat and overwrite JSON files
+
+      - name: Run bfg.py
         env:
           BFG_PAT_GITHUB: ${{ GITHUB_TOKEN }}
         run:
