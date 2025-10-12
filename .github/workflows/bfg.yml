@@ -1,4 +1,4 @@
-name: BFG-Workflow
+name: BFG
 # Bot for Goboscript
 
 on:
@@ -8,7 +8,7 @@ permissions:
   contents: write
 
 jobs:
-  BFG-Workflow:
+  BFG:
     runs-on: ubuntu-latest
 
     steps:
@@ -17,14 +17,14 @@ jobs:
         with:
           python-version: '3.13'
 
-      - name: Run bfg.py
-        env:
-          BFG_PAT_GITHUB: ${{ GITHUB_TOKEN }}
-        run:
-          python bfg.py
+      # - name: Run bfg.py
+      #   env:
+      #     BFG_PAT_GITHUB: ${{ GITHUB_TOKEN }}
+      #   run:
+      #     python bfg.py
 
-      - name: Commit GTP changes (if applicable)
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: 'feat: new packages'
-          branch: ${{ github.head_ref || github.ref_name }} # Works for both push and pull_request
+      # - name: Commit GTP changes (if applicable)
+      #   uses: stefanzweifel/git-auto-commit-action@v5
+      #   with:
+      #     commit_message: 'feat: new packages'
+      #     branch: ${{ github.head_ref || github.ref_name }} # Works for both push and pull_request
