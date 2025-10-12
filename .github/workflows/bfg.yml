@@ -2,6 +2,7 @@ name: BFG # Bot for Goboscript
 
 on:
   issues:
+  workflow_dispatch:
 
 jobs:
   scan-comments:
