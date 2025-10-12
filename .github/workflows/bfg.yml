@@ -1,0 +1,24 @@
+name: BFG # Bot for Goboscript
+
+on:
+  issues:
+
+jobs:
+  scan-comments:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - name: Reformat and overwrite JSON files
+        run:
+          python bfg.py
+
+      - name: Commit GTP changes (if applicable)
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'feat: ${{ github.event.issue.title }}'
+          branch: ${{ github.head_ref || github.ref_name }} # Works for both push and pull_request

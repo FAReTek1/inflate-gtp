@@ -138,10 +138,8 @@ def parse_url(url: furl) -> str:
 
 
 def main():
-    while True:
-        print(f"Checking for registrations... {datetime.now()}")
-        resolve_registrations()
-        time.sleep(60)
+    print(f"Checking for registrations... {datetime.now()}")
+    resolve_registrations()
 
 if __name__ == '__main__':
     main()
