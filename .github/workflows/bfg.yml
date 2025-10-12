@@ -1,4 +1,5 @@
-name: BFG # Bot for Goboscript
+name: BFG
+# Bot for Goboscript
 
 on:
   workflow_dispatch:
