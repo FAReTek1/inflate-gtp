@@ -1,1 +1,74 @@
-{"time": {"url": "https://github.com/inflated-goboscript/time"}, "xml": {"url": "https://github.com/inflated-goboscript/xml"}, "lazy": {"url": "https://github.com/inflated-goboscript/lazy"}, "sound": {"url": "https://github.com/inflated-goboscript/sound"}, "button_detector": {"url": "https://github.com/inflated-goboscript/button_detector"}, "string": {"url": "https://github.com/inflated-goboscript/string"}, "assert": {"url": "https://github.com/inflated-goboscript/assert"}, "ease": {"url": "https://github.com/inflated-goboscript/ease"}, "bstr": {"url": "https://github.com/inflated-goboscript/bstr"}, "char": {"url": "https://github.com/inflated-goboscript/char"}, "cloud_requests": {"url": "https://github.com/inflated-goboscript/cloud_requests"}, "cmath": {"url": "https://github.com/inflated-goboscript/cmath"}, "vec2": {"url": "https://github.com/inflated-goboscript/vec2"}, "color": {"url": "https://github.com/inflated-goboscript/color"}, "base": {"url": "https://github.com/inflated-goboscript/base"}, "binomial": {"url": "https://github.com/inflated-goboscript/binomial"}, "math": {"url": "https://github.com/inflated-goboscript/math"}, "prime": {"url": "https://github.com/inflated-goboscript/prime"}, "rosetta": {"url": "https://github.com/inflated-goboscript/rosetta"}, "geo2d": {"url": "https://github.com/inflated-goboscript/geo2d"}, "fenceless": {"url": "https://github.com/inflated-goboscript/fenceless"}, "gobo_module": {"url": "https://github.com/inflated-goboscript/gobo_module"}, "os": {"url": "https://github.com/inflated-goboscript/os"}}
+{
+    "time": {
+        "url": "https://github.com/inflated-goboscript/time"
+    },
+    "xml": {
+        "url": "https://github.com/inflated-goboscript/xml"
+    },
+    "lazy": {
+        "url": "https://github.com/inflated-goboscript/lazy"
+    },
+    "sound": {
+        "url": "https://github.com/inflated-goboscript/sound"
+    },
+    "button_detector": {
+        "url": "https://github.com/inflated-goboscript/button_detector"
+    },
+    "string": {
+        "url": "https://github.com/inflated-goboscript/string"
+    },
+    "assert": {
+        "url": "https://github.com/inflated-goboscript/assert"
+    },
+    "ease": {
+        "url": "https://github.com/inflated-goboscript/ease"
+    },
+    "bstr": {
+        "url": "https://github.com/inflated-goboscript/bstr"
+    },
+    "char": {
+        "url": "https://github.com/inflated-goboscript/char"
+    },
+    "cloud_requests": {
+        "url": "https://github.com/inflated-goboscript/cloud_requests"
+    },
+    "cmath": {
+        "url": "https://github.com/inflated-goboscript/cmath"
+    },
+    "vec2": {
+        "url": "https://github.com/inflated-goboscript/vec2"
+    },
+    "color": {
+        "url": "https://github.com/inflated-goboscript/color"
+    },
+    "base": {
+        "url": "https://github.com/inflated-goboscript/base"
+    },
+    "binomial": {
+        "url": "https://github.com/inflated-goboscript/binomial"
+    },
+    "math": {
+        "url": "https://github.com/inflated-goboscript/math"
+    },
+    "prime": {
+        "url": "https://github.com/inflated-goboscript/prime"
+    },
+    "rosetta": {
+        "url": "https://github.com/inflated-goboscript/rosetta"
+    },
+    "geo2d": {
+        "url": "https://github.com/inflated-goboscript/geo2d"
+    },
+    "fenceless": {
+        "url": "https://github.com/inflated-goboscript/fenceless"
+    },
+    "gobo_module": {
+        "url": "https://github.com/inflated-goboscript/gobo_module"
+    },
+    "os": {
+        "url": "https://github.com/inflated-goboscript/os"
+    },
+    "catch": {
+        "url": "https://github.com/inflated-goboscript/catch"
+    }
+}
