@@ -1,4 +1,4 @@
-name: BFG
+name: BFG-Workflow
 # Bot for Goboscript
 
 on:
@@ -8,7 +8,7 @@ permissions:
   contents: write
 
 jobs:
-  bfg:
+  BFG-Workflow:
     runs-on: ubuntu-latest
 
     steps:
