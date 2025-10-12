@@ -2,8 +2,6 @@ name: Register package
 description: Register a package to be added to the gtp.json file
 title: "register: "
 labels: ["register"]
-assignees:
-  - faretek0
 body:
   - type: markdown
     attributes:
